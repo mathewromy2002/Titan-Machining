@@ -6,10 +6,10 @@ Titan Machining LLC specializes in lathe works and turning, CNC milling, custom 
 
 ## Pages
 
-- [Home](https://titanmachininguae.com/index.html): Overview of Titan Machining LLC's precision lathe and CNC machining services in the UAE.
-- [Services](https://titanmachininguae.com/services.html): Full breakdown of machining capabilities including lathe works, CNC milling, custom fabrication, welding & assembly, quality inspection, spare parts reproduction, and batch production runs.
-- [About](https://titanmachininguae.com/about.html): Company background, values, and approach to precision machining.
-- [Contact](https://titanmachininguae.com/contact.html): Contact details and quote request form.
+- [Home](https://titanmachininguae.com/): Overview of Titan Machining LLC's precision lathe and CNC machining services in the UAE.
+- [Services](https://titanmachininguae.com/services/): Full breakdown of machining capabilities including lathe works, CNC milling, custom fabrication, welding & assembly, quality inspection, spare parts reproduction, and batch production runs.
+- [About](https://titanmachininguae.com/about/): Company background, values, and approach to precision machining.
+- [Contact](https://titanmachininguae.com/contact/): Contact details and quote request form.
 
 ## Contact
 

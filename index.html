@@ -26,7 +26,9 @@
 
 <link rel="icon" href="images/logo-icon-transparent.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/lathe-1.jpg" fetchpriority="high">
 <link rel="stylesheet" href="css/style.css">
 
 <script type="application/ld+json">
@@ -64,19 +66,19 @@
 
 <header class="site-header">
   <div class="navbar">
-    <a href="index.html" class="brand">
-      <img src="images/logo-icon-transparent.png" alt="Titan Machining LLC logo">
+    <a href="./" class="brand">
+      <img src="images/logo-icon-transparent.png" alt="Titan Machining LLC logo" width="250" height="237">
       <span class="brand-text">
         <span class="name">TITAN</span>
         <span class="tagline">Machining L.L.C</span>
       </span>
     </a>
     <nav class="nav-links" id="navLinks">
-      <a href="index.html" class="active">Home</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="contact.html" class="nav-cta">Get a Quote</a>
+      <a href="./" class="active">Home</a>
+      <a href="services/">Services</a>
+      <a href="about/">About</a>
+      <a href="contact/">Contact</a>
+      <a href="contact/" class="nav-cta">Get a Quote</a>
     </nav>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
   </div>
@@ -89,8 +91,8 @@
       <h1>Precision Lathe &amp; CNC <span>Machining Solutions</span> Built for Industry</h1>
       <p class="lead">Titan Machining LLC delivers high-tolerance turning, milling and custom fabrication services to industrial, oil &amp; gas, and manufacturing clients across the UAE. Fast turnaround. Uncompromising precision.</p>
       <div class="btn-group">
-        <a href="contact.html" class="btn btn-primary">Request a Quote</a>
-        <a href="services.html" class="btn btn-outline">Explore Our Services</a>
+        <a href="contact/" class="btn btn-primary">Request a Quote</a>
+        <a href="services/" class="btn btn-outline">Explore Our Services</a>
       </div>
       <div class="hero-stats">
         <div class="stat"><strong>Expert</strong><span>Skilled Machinists</span></div>
@@ -100,7 +102,7 @@
     </div>
     <div class="hero-visual">
       <div class="hero-photo-frame">
-        <img src="images/lathe-1.avif" alt="CNC lathe machine operating at Titan Machining LLC workshop in Ajman, UAE">
+        <img src="images/lathe-1.jpg" alt="CNC lathe machine operating at Titan Machining LLC workshop in Ajman, UAE" width="1000" height="666" fetchpriority="high">
       </div>
     </div>
   </div>
@@ -151,12 +153,13 @@
 <section class="section-white" id="about">
   <div class="container about-grid">
     <div class="about-image">
-      <img src="images/about-worker.jpg" alt="Titan Machining LLC machinist inspecting precision parts on a CNC lathe">
+      <img src="images/about-worker.jpg" alt="Titan Machining LLC machinist inspecting precision parts on a CNC lathe" width="1200" height="669" loading="lazy">
     </div>
     <div>
       <span class="eyebrow">About Titan Machining</span>
       <h2>Engineering Precision, Backed by Experience</h2>
-      <p>Based in the UAE, Titan Machining LLC specializes in lathe works and precision machining for clients in manufacturing, oil &amp; gas, construction and general engineering. Our team combines traditional machining expertise with modern CNC technology to deliver parts that meet exact specifications, every time.</p>
+      <p>Based in Ajman, UAE, Titan Machining LLC specializes in lathe works and precision machining for clients in manufacturing, oil &amp; gas, construction and general engineering. Our team combines traditional machining expertise with modern CNC technology to deliver parts that meet exact specifications, every time.</p>
+      <p>We understand that downtime is costly, which is why we prioritize clear communication and realistic timelines from the moment a drawing or sample part reaches our workshop. Every job, whether it's a single replacement component or a multi-piece production run, goes through the same disciplined process: material verification, precision machining, and a final dimensional check before it ships to you.</p>
       <ul class="about-list">
         <li>Skilled machinists with deep lathe &amp; CNC expertise</li>
         <li>Modern, well-maintained machining equipment</li>
@@ -164,7 +167,7 @@
         <li>Competitive pricing &amp; flexible production runs</li>
         <li>Fast response and reliable delivery timelines</li>
       </ul>
-      <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+      <a href="about/" class="btn btn-primary">Learn More About Us</a>
     </div>
   </div>
 </section>
@@ -185,6 +188,7 @@
     <div class="section-head">
       <span class="eyebrow">Industries We Serve</span>
       <h2>Trusted Across Multiple Sectors</h2>
+      <p>Our machined components support critical operations across a wide range of UAE industries, where precision and reliability are non-negotiable.</p>
     </div>
     <div class="industries-grid">
       <div class="industry-card">Oil &amp; Gas</div>
@@ -206,7 +210,7 @@
         <h3>Have a machining project in mind?</h3>
         <p>Send us your drawings or specifications and get a fast, competitive quote.</p>
       </div>
-      <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+      <a href="contact/" class="btn btn-primary">Get In Touch</a>
     </div>
   </div>
 </section>
@@ -215,25 +219,25 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="images/logo-icon-transparent.png" alt="Titan Machining LLC logo">
+        <img src="images/logo-icon-transparent.png" alt="Titan Machining LLC logo" width="250" height="237">
         <p>Precision lathe works and CNC machining services for industrial clients across the UAE.</p>
       </div>
       <div class="footer-col">
         <h4>Company</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="./">Home</a></li>
+          <li><a href="services/">Services</a></li>
+          <li><a href="about/">About Us</a></li>
+          <li><a href="contact/">Contact</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
-          <li><a href="services.html">Lathe Works</a></li>
-          <li><a href="services.html">CNC Milling</a></li>
-          <li><a href="services.html">Custom Fabrication</a></li>
-          <li><a href="services.html">Welding &amp; Assembly</a></li>
+          <li><a href="services/">Lathe Works</a></li>
+          <li><a href="services/">CNC Milling</a></li>
+          <li><a href="services/">Custom Fabrication</a></li>
+          <li><a href="services/">Welding &amp; Assembly</a></li>
         </ul>
       </div>
       <div class="footer-col">
