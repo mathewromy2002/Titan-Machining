@@ -11,4 +11,12 @@ document.addEventListener('DOMContentLoaded', function () {
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
   }
+
+  document.querySelectorAll('.email-link').forEach(function (link) {
+    const user = link.getAttribute('data-user');
+    const domain = link.getAttribute('data-domain');
+    const address = user + '@' + domain;
+    link.href = 'mailto:' + address;
+    link.textContent = address;
+  });
 });
